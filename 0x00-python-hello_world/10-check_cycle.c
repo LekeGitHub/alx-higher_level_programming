@@ -6,7 +6,7 @@
  *
  * Return: 0 if there is no cycle,
  *         1 if there is a cycle
- **/
+ */
 
 int check_cycle(listint_t *list)
 {
@@ -24,6 +24,7 @@ int check_cycle(listint_t *list)
 		hare = hare->next->next;
 
 		if (tortoise == hare)
-			return (1);							}
+			return (1);
+	}
 	return (0);
 }

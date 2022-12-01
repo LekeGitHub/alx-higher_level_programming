@@ -10,5 +10,5 @@ def uppercase(str):
 
         str_chr = chr(str_num)
         print('{}'.format(str_chr), end='')
-        
+
     print('')
